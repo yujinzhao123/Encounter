@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:checkable="true"
+            android:icon="@mipmap/icon_theme"
+            android:title="主题吧" />
+        <item
+            android:checkable="true"
+            android:icon="@mipmap/icon_talk"
+            android:title="消息" />
+        <item
+            android:checkable="true"
+            android:icon="@mipmap/icon_invite"
+            android:title="邀请好友" />
+        <item
+            android:checkable="true"
+            android:icon="@mipmap/icon_setting"
+            android:title="设置" />
+    </group>
+
+
+
+</menu>
