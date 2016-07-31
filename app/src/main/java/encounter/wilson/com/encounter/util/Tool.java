@@ -1,7 +1,9 @@
 package encounter.wilson.com.encounter.util;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
+import android.os.Build;
 import android.support.v4.view.ViewCompat;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +18,7 @@ import encounter.wilson.com.encounter.R;
 public class Tool {
 
 
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public static void setStatusBar(Activity activity) {
         Window window = activity.getWindow();
 //取消设置透明状态栏,使 ContentView 内容不再覆盖状态栏

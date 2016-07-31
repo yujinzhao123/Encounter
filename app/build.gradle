@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
+    compileSdkVersion 24
     buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "encounter.wilson.com.encounter"
-        minSdkVersion 19
+        minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
@@ -23,9 +23,11 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:cardview-v7:24.0.0'
     compile 'com.android.support:recyclerview-v7:22.2.0'
     compile 'com.android.support:design:22.2.0'
     compile 'com.joooonho:selectableroundedimageview:1.0.1'
     compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
     compile files('libs/imageloader.jar')
+    compile 'com.wuxiaolong.pullloadmorerecyclerview:library:1.0.8'
 }
